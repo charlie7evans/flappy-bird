@@ -1,0 +1,28 @@
+h1 {
+  color: #83ff00;
+}
+li {
+   color: red;
+}
+
+.j {
+  color: #00ff00;
+}
+.s {
+  color: #ff8df5;
+}
+#city {
+  color: purple;
+}
+#instructions {
+  color: brown;
+  font-style: bold;
+}
+p {
+  color: blue;
+}
+
+body {
+ background-image: url("../assets/grey.jpg");
+ /* background-color: #cccccc; */
+}

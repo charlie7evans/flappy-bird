@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Flappy Bird!</title>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <link rel="stylesheet" href= "../lib/bootstrap.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Flappy Bird!!!</h1>
+      </div>
+
+       <div class="row">
+         <ul>
+           <li class= "s" id= "instructions">Press SPACE to flap your wings.</li>
+           <li class="j">Avoid the pipes.</li>
+           <li class= "s">If you crash, just try again.</li>
+           <li><a href="example.html">Here will be the game</a></li>
+         </ul>
+       </div>
+
+       <div id="game"></div>
+
+     <div id="credits"> Creditssss </div>
+     <div>
+       <button type="button" class="btn btn-default" id="scoresbtn">Scores</button>
+       <button type="button" class="btn btn-default" id="creditsbtn">Credits</button>
+       <button type="button" class="btn btn-default" id="helpbtn">Help</button>
+    </div>
+
+    <div>
+      <div id="content"></div>
+    </div>
+
+     <div class="row">
+        <div class="col-xs-4"><img src="../assets/flappy_frog.png" class="img-responsive"/></div>
+        <div class="col-xs-4"><img src="../assets/flappy_frog.png" class="img-responsive"/></div>
+        <div class="col-xs-4"><img src="../assets/flappy_frog.png" class="img-responsive"/></div>
+     </div>
+
+    </div>
+
+    <script src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/interactivity.js"></script>
+  </body>
+
+</html>
